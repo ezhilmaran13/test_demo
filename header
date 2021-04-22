@@ -1,0 +1,49 @@
+<mat-toolbar color="primary">
+  <div class="example-button-container">
+      <button mat-fab color="primary" aria-label="Example icon button with a home icon">
+        <mat-icon>home</mat-icon>
+      </button>
+    </div>
+  <span>Simply-logic technologies</span>
+  <div class="spacer"></div>
+  <a  mat-button routerLink="Home"> Home</a>
+  <a  mat-button routerLink="Services"> Services</a>
+  <a  mat-button routerLink="Project"> Project</a>
+  <a  mat-button routerLink=" About us"> About us</a>
+  <a  mat-button routerLink="Sign up"color =""> Sign up</a>
+</mat-toolbar>
+
+
+
+for css
+.spacer{
+  flex:1 1 auto;
+}
+a{
+  margin-right: 2vw;
+}
+a:hover {
+  color:rgba(240, 237, 62, 0.979);
+  text-decoration: none;
+  }
+  span{
+      margin-left: 2vw;
+
+  }
+  
+  
+  for footer
+  <--------------footer---------------->
+  
+  <p>
+  <mat-toolbar color="primary"> 
+    <span> @ Copyrights2021.All rights reserved by Simply-logic Technologies</span>
+   </mat-toolbar>
+   </p>
+   
+   
+   for css
+   <------------------css---------------->
+   span{
+    text-align:center;
+}
